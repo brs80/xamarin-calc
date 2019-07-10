@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="calc.MainPage">
+
+    <StackLayout>
+        <Entry Placeholder="1:     " x:Name="en1" FontSize="Large"/>
+        <Entry Placeholder="2:     " x:Name="en2" FontSize="Large"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="+" Clicked="OnAddition"></Button>
+            <Button Text="-" Clicked="OnSubtraction"></Button>
+            <Button Text="*" Clicked="OnMultiplication"></Button>
+            <Button Text="/" Clicked="OnDivision"></Button>
+        </StackLayout>
+        <Label x:Name="result" FontSize="Large"></Label>
+        <Label  FontSize="Large">Number 1:</Label>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="1" Clicked="OnOne"></Button>
+            <Button Text="2" Clicked="OnTwo"></Button>
+            <Button Text="3" Clicked="OnThree"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="4" Clicked="OnFour"></Button>
+            <Button Text="5" Clicked="OnFive"></Button>
+            <Button Text="6" Clicked="OnSix"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="7" Clicked="OnSeven"></Button>
+            <Button Text="8" Clicked="OnEight"></Button>
+            <Button Text="9" Clicked="OnNine"></Button>
+        </StackLayout>
+        <Label  FontSize="Large">Number 2:</Label>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="1" Clicked="OnOneb"></Button>
+            <Button Text="2" Clicked="OnTwob"></Button>
+            <Button Text="3" Clicked="OnThreeb"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="4" Clicked="OnFourb"></Button>
+            <Button Text="5" Clicked="OnFiveb"></Button>
+            <Button Text="6" Clicked="OnSixb"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="7" Clicked="OnSevenb"></Button>
+            <Button Text="8" Clicked="OnEightb"></Button>
+            <Button Text="9" Clicked="OnNineb"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
