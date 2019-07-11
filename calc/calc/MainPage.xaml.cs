@@ -26,6 +26,7 @@ namespace calc
                 result.Text = $"{fv} + {sv} = {fv + sv}";
             } catch {  }
         }
+        // handler for subtraction 
         private void OnSubtraction(object sender, EventArgs e)
         {
             try
@@ -35,6 +36,7 @@ namespace calc
                 result.Text = $"{fv} - {sv} = {fv - sv}";
             } catch { }
         }
+        // handler for multiplication 
         private void OnMultiplication(object sender, EventArgs e)
         {
             try
